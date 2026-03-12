@@ -8,7 +8,7 @@ import utilities.ExcelUtility;
 
 public class LoginTest extends Base {
 	
-	@Test (priority=1,groups = {"Regression"},retryAnalyzer=retry.Retry.class)
+	@Test (priority=1,groups = {"Regression"},retryAnalyzer=retry.Retry.class description ="Verify login functionaility")
 	
 	public void verifyiftheuserisabletologinwithvalidcredentials() throws IOException {
 		//String username1="admin";
@@ -23,7 +23,7 @@ public class LoginTest extends Base {
 		boolean page=obj.isdashBoarddisplayed();
 		Assert.assertTrue(page);
 }
-	@Test (priority=2,groups = {"Regression"})
+	@Test (priority=2,groups = {"Regression"} description ="Verify login functionaility")
 	public void verifyiftheuserisabletologinwithcorrectusernameandincorrectpassword() throws IOException {
 		//String username1="admin1";
 		//String password1="admin2";
@@ -37,7 +37,7 @@ public class LoginTest extends Base {
 		boolean message=obj.isalertdisplayed();
 		Assert.assertTrue(message);
 }
-	@Test (priority=3,groups = {"Regression"})
+	@Test (priority=3,groups = {"Regression"} description ="Verify login functionaility")
 	
 		public void verifyiftheuserisabletologinwithincorrectusernameandcorrectpassword() throws IOException {
 		String username1 = ExcelUtility.getStringdata(3, 0, "LoginPage");
@@ -50,7 +50,7 @@ public class LoginTest extends Base {
 			boolean message=obj.isalertdisplayed();
 			Assert.assertTrue(message);
 	}
-	@Test (priority=4,groups = {"Regression"})
+	@Test (priority=4,groups = {"Regression"} description ="Verify login functionaility")
 	
 	public void verifyiftheuserisabletologinwithincorrectusernameandincorrectpassword() throws IOException {
 		String username1 = ExcelUtility.getStringdata(4, 0, "LoginPage");
@@ -63,7 +63,7 @@ public class LoginTest extends Base {
 		boolean message=obj.isalertdisplayed();
 		Assert.assertTrue(message);
 }
-	@Test (priority=5,groups = {"Regression"})
+	@Test (priority=5,groups = {"Regression"} description ="Verify login functionaility")
 	public void verifyiftheuserisabletologinwithnousernameandpassword() throws IOException {
 		String username1 = ExcelUtility.getStringdata(5, 0, "LoginPage");
 	    String password1 = ExcelUtility.getStringdata(5, 1, "LoginPage");
