@@ -2,19 +2,19 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-11T20:34:37 IST" name="Suite" finished-at="2026-03-11T20:34:51 IST" duration-ms="13679">
+  <suite started-at="2026-03-12T20:41:09 IST" name="Suite" finished-at="2026-03-12T20:41:31 IST" duration-ms="21841">
     <groups>
       <group name="Regression">
-        <method signature="LoginTest.verifyiftheuserisabletologinwithvalidcredentials()[pri:1, instance:testscript.LoginTest@5e82df6a]" name="verifyiftheuserisabletologinwithvalidcredentials" class="testscript.LoginTest"/>
-        <method signature="LoginTest.verifyiftheuserisabletologinwithcorrectusernameandincorrectpassword()[pri:2, instance:testscript.LoginTest@5e82df6a]" name="verifyiftheuserisabletologinwithcorrectusernameandincorrectpassword" class="testscript.LoginTest"/>
-        <method signature="LoginTest.verifyiftheuserisabletologinwithincorrectusernameandcorrectpassword()[pri:3, instance:testscript.LoginTest@5e82df6a]" name="verifyiftheuserisabletologinwithincorrectusernameandcorrectpassword" class="testscript.LoginTest"/>
-        <method signature="LoginTest.verifyiftheuserisabletologinwithincorrectusernameandincorrectpassword()[pri:4, instance:testscript.LoginTest@5e82df6a]" name="verifyiftheuserisabletologinwithincorrectusernameandincorrectpassword" class="testscript.LoginTest"/>
-        <method signature="LoginTest.verifyiftheuserisabletologinwithnousernameandpassword()[pri:5, instance:testscript.LoginTest@5e82df6a]" name="verifyiftheuserisabletologinwithnousernameandpassword" class="testscript.LoginTest"/>
+        <method signature="LoginTest.verifyiftheuserisabletologinwithvalidcredentials()[pri:1, instance:testscript.LoginTest@c267ef4]" name="verifyiftheuserisabletologinwithvalidcredentials" class="testscript.LoginTest"/>
+        <method signature="LoginTest.verifyiftheuserisabletologinwithcorrectusernameandincorrectpassword()[pri:2, instance:testscript.LoginTest@c267ef4]" name="verifyiftheuserisabletologinwithcorrectusernameandincorrectpassword" class="testscript.LoginTest"/>
+        <method signature="LoginTest.verifyiftheuserisabletologinwithincorrectusernameandcorrectpassword()[pri:3, instance:testscript.LoginTest@c267ef4]" name="verifyiftheuserisabletologinwithincorrectusernameandcorrectpassword" class="testscript.LoginTest"/>
+        <method signature="LoginTest.verifyiftheuserisabletologinwithincorrectusernameandincorrectpassword()[pri:4, instance:testscript.LoginTest@c267ef4]" name="verifyiftheuserisabletologinwithincorrectusernameandincorrectpassword" class="testscript.LoginTest"/>
+        <method signature="LoginTest.verifyiftheuserisabletologinwithnousernameandpassword()[pri:5, instance:testscript.LoginTest@c267ef4]" name="verifyiftheuserisabletologinwithnousernameandpassword" class="testscript.LoginTest"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2026-03-11T20:34:37 IST" name="Test" finished-at="2026-03-11T20:34:51 IST" duration-ms="13679">
+    <test started-at="2026-03-12T20:41:09 IST" name="Test" finished-at="2026-03-12T20:41:31 IST" duration-ms="21841">
       <class name="testscript.LoginTest">
-        <test-method is-config="true" signature="initialiseBrowser(java.lang.String)[pri:0, instance:testscript.LoginTest@5e82df6a]" started-at="2026-03-11T20:34:37 IST" name="initialiseBrowser" finished-at="2026-03-11T20:34:39 IST" duration-ms="2024" status="PASS">
+        <test-method is-config="true" signature="initialiseBrowser(java.lang.String)[pri:0, instance:testscript.LoginTest@c267ef4]" started-at="2026-03-12T20:41:09 IST" name="initialiseBrowser" finished-at="2026-03-12T20:41:16 IST" duration-ms="6589" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -25,22 +25,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseBrowser -->
-        <test-method signature="verifyiftheuserisabletologinwithvalidcredentials()[pri:1, instance:testscript.LoginTest@5e82df6a]" started-at="2026-03-11T20:34:39 IST" name="verifyiftheuserisabletologinwithvalidcredentials" finished-at="2026-03-11T20:34:41 IST" duration-ms="1858" status="PASS">
+        <test-method signature="verifyiftheuserisabletologinwithvalidcredentials()[pri:1, instance:testscript.LoginTest@c267ef4]" started-at="2026-03-12T20:41:16 IST" name="verifyiftheuserisabletologinwithvalidcredentials" description="Verify login functionaility" finished-at="2026-03-12T20:41:18 IST" duration-ms="2847" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyiftheuserisabletologinwithvalidcredentials -->
-        <test-method is-config="true" signature="browserQuitAndClose(org.testng.ITestResult)[pri:0, instance:testscript.LoginTest@5e82df6a]" started-at="2026-03-11T20:34:41 IST" name="browserQuitAndClose" finished-at="2026-03-11T20:34:41 IST" duration-ms="193" status="PASS">
+        <test-method is-config="true" signature="browserQuitAndClose(org.testng.ITestResult)[pri:0, instance:testscript.LoginTest@c267ef4]" started-at="2026-03-12T20:41:18 IST" name="browserQuitAndClose" finished-at="2026-03-12T20:41:19 IST" duration-ms="316" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyiftheuserisabletologinwithvalidcredentials status=SUCCESS method=LoginTest.verifyiftheuserisabletologinwithvalidcredentials()[pri:1, instance:testscript.LoginTest@5e82df6a] output={null}]]]>
+                <![CDATA[[TestResult name=verifyiftheuserisabletologinwithvalidcredentials status=SUCCESS method=LoginTest.verifyiftheuserisabletologinwithvalidcredentials()[pri:1, instance:testscript.LoginTest@c267ef4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuitAndClose -->
-        <test-method is-config="true" signature="initialiseBrowser(java.lang.String)[pri:0, instance:testscript.LoginTest@5e82df6a]" started-at="2026-03-11T20:34:41 IST" name="initialiseBrowser" finished-at="2026-03-11T20:34:43 IST" duration-ms="1407" status="PASS">
+        <test-method is-config="true" signature="initialiseBrowser(java.lang.String)[pri:0, instance:testscript.LoginTest@c267ef4]" started-at="2026-03-12T20:41:19 IST" name="initialiseBrowser" finished-at="2026-03-12T20:41:21 IST" duration-ms="1833" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,22 +51,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseBrowser -->
-        <test-method signature="verifyiftheuserisabletologinwithcorrectusernameandincorrectpassword()[pri:2, instance:testscript.LoginTest@5e82df6a]" started-at="2026-03-11T20:34:43 IST" name="verifyiftheuserisabletologinwithcorrectusernameandincorrectpassword" finished-at="2026-03-11T20:34:44 IST" duration-ms="797" status="PASS">
+        <test-method signature="verifyiftheuserisabletologinwithcorrectusernameandincorrectpassword()[pri:2, instance:testscript.LoginTest@c267ef4]" started-at="2026-03-12T20:41:21 IST" name="verifyiftheuserisabletologinwithcorrectusernameandincorrectpassword" description="Verify login functionaility" finished-at="2026-03-12T20:41:21 IST" duration-ms="834" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyiftheuserisabletologinwithcorrectusernameandincorrectpassword -->
-        <test-method is-config="true" signature="browserQuitAndClose(org.testng.ITestResult)[pri:0, instance:testscript.LoginTest@5e82df6a]" started-at="2026-03-11T20:34:44 IST" name="browserQuitAndClose" finished-at="2026-03-11T20:34:44 IST" duration-ms="226" status="PASS">
+        <test-method is-config="true" signature="browserQuitAndClose(org.testng.ITestResult)[pri:0, instance:testscript.LoginTest@c267ef4]" started-at="2026-03-12T20:41:21 IST" name="browserQuitAndClose" finished-at="2026-03-12T20:41:22 IST" duration-ms="210" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyiftheuserisabletologinwithcorrectusernameandincorrectpassword status=SUCCESS method=LoginTest.verifyiftheuserisabletologinwithcorrectusernameandincorrectpassword()[pri:2, instance:testscript.LoginTest@5e82df6a] output={null}]]]>
+                <![CDATA[[TestResult name=verifyiftheuserisabletologinwithcorrectusernameandincorrectpassword status=SUCCESS method=LoginTest.verifyiftheuserisabletologinwithcorrectusernameandincorrectpassword()[pri:2, instance:testscript.LoginTest@c267ef4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuitAndClose -->
-        <test-method is-config="true" signature="initialiseBrowser(java.lang.String)[pri:0, instance:testscript.LoginTest@5e82df6a]" started-at="2026-03-11T20:34:44 IST" name="initialiseBrowser" finished-at="2026-03-11T20:34:45 IST" duration-ms="1502" status="PASS">
+        <test-method is-config="true" signature="initialiseBrowser(java.lang.String)[pri:0, instance:testscript.LoginTest@c267ef4]" started-at="2026-03-12T20:41:22 IST" name="initialiseBrowser" finished-at="2026-03-12T20:41:24 IST" duration-ms="2479" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -77,22 +77,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseBrowser -->
-        <test-method signature="verifyiftheuserisabletologinwithincorrectusernameandcorrectpassword()[pri:3, instance:testscript.LoginTest@5e82df6a]" started-at="2026-03-11T20:34:45 IST" name="verifyiftheuserisabletologinwithincorrectusernameandcorrectpassword" finished-at="2026-03-11T20:34:46 IST" duration-ms="693" status="PASS">
+        <test-method signature="verifyiftheuserisabletologinwithincorrectusernameandcorrectpassword()[pri:3, instance:testscript.LoginTest@c267ef4]" started-at="2026-03-12T20:41:24 IST" name="verifyiftheuserisabletologinwithincorrectusernameandcorrectpassword" description="Verify login functionaility" finished-at="2026-03-12T20:41:25 IST" duration-ms="793" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyiftheuserisabletologinwithincorrectusernameandcorrectpassword -->
-        <test-method is-config="true" signature="browserQuitAndClose(org.testng.ITestResult)[pri:0, instance:testscript.LoginTest@5e82df6a]" started-at="2026-03-11T20:34:46 IST" name="browserQuitAndClose" finished-at="2026-03-11T20:34:46 IST" duration-ms="182" status="PASS">
+        <test-method is-config="true" signature="browserQuitAndClose(org.testng.ITestResult)[pri:0, instance:testscript.LoginTest@c267ef4]" started-at="2026-03-12T20:41:25 IST" name="browserQuitAndClose" finished-at="2026-03-12T20:41:25 IST" duration-ms="197" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyiftheuserisabletologinwithincorrectusernameandcorrectpassword status=SUCCESS method=LoginTest.verifyiftheuserisabletologinwithincorrectusernameandcorrectpassword()[pri:3, instance:testscript.LoginTest@5e82df6a] output={null}]]]>
+                <![CDATA[[TestResult name=verifyiftheuserisabletologinwithincorrectusernameandcorrectpassword status=SUCCESS method=LoginTest.verifyiftheuserisabletologinwithincorrectusernameandcorrectpassword()[pri:3, instance:testscript.LoginTest@c267ef4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuitAndClose -->
-        <test-method is-config="true" signature="initialiseBrowser(java.lang.String)[pri:0, instance:testscript.LoginTest@5e82df6a]" started-at="2026-03-11T20:34:46 IST" name="initialiseBrowser" finished-at="2026-03-11T20:34:48 IST" duration-ms="1558" status="PASS">
+        <test-method is-config="true" signature="initialiseBrowser(java.lang.String)[pri:0, instance:testscript.LoginTest@c267ef4]" started-at="2026-03-12T20:41:25 IST" name="initialiseBrowser" finished-at="2026-03-12T20:41:27 IST" duration-ms="2156" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -103,22 +103,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseBrowser -->
-        <test-method signature="verifyiftheuserisabletologinwithincorrectusernameandincorrectpassword()[pri:4, instance:testscript.LoginTest@5e82df6a]" started-at="2026-03-11T20:34:48 IST" name="verifyiftheuserisabletologinwithincorrectusernameandincorrectpassword" finished-at="2026-03-11T20:34:49 IST" duration-ms="755" status="PASS">
+        <test-method signature="verifyiftheuserisabletologinwithincorrectusernameandincorrectpassword()[pri:4, instance:testscript.LoginTest@c267ef4]" started-at="2026-03-12T20:41:27 IST" name="verifyiftheuserisabletologinwithincorrectusernameandincorrectpassword" description="Verify login functionaility" finished-at="2026-03-12T20:41:28 IST" duration-ms="750" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyiftheuserisabletologinwithincorrectusernameandincorrectpassword -->
-        <test-method is-config="true" signature="browserQuitAndClose(org.testng.ITestResult)[pri:0, instance:testscript.LoginTest@5e82df6a]" started-at="2026-03-11T20:34:49 IST" name="browserQuitAndClose" finished-at="2026-03-11T20:34:49 IST" duration-ms="182" status="PASS">
+        <test-method is-config="true" signature="browserQuitAndClose(org.testng.ITestResult)[pri:0, instance:testscript.LoginTest@c267ef4]" started-at="2026-03-12T20:41:28 IST" name="browserQuitAndClose" finished-at="2026-03-12T20:41:28 IST" duration-ms="299" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyiftheuserisabletologinwithincorrectusernameandincorrectpassword status=SUCCESS method=LoginTest.verifyiftheuserisabletologinwithincorrectusernameandincorrectpassword()[pri:4, instance:testscript.LoginTest@5e82df6a] output={null}]]]>
+                <![CDATA[[TestResult name=verifyiftheuserisabletologinwithincorrectusernameandincorrectpassword status=SUCCESS method=LoginTest.verifyiftheuserisabletologinwithincorrectusernameandincorrectpassword()[pri:4, instance:testscript.LoginTest@c267ef4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuitAndClose -->
-        <test-method is-config="true" signature="initialiseBrowser(java.lang.String)[pri:0, instance:testscript.LoginTest@5e82df6a]" started-at="2026-03-11T20:34:49 IST" name="initialiseBrowser" finished-at="2026-03-11T20:34:50 IST" duration-ms="1470" status="PASS">
+        <test-method is-config="true" signature="initialiseBrowser(java.lang.String)[pri:0, instance:testscript.LoginTest@c267ef4]" started-at="2026-03-12T20:41:28 IST" name="initialiseBrowser" finished-at="2026-03-12T20:41:30 IST" duration-ms="1638" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -129,15 +129,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseBrowser -->
-        <test-method signature="verifyiftheuserisabletologinwithnousernameandpassword()[pri:5, instance:testscript.LoginTest@5e82df6a]" started-at="2026-03-11T20:34:50 IST" name="verifyiftheuserisabletologinwithnousernameandpassword" finished-at="2026-03-11T20:34:51 IST" duration-ms="539" status="PASS">
+        <test-method signature="verifyiftheuserisabletologinwithnousernameandpassword()[pri:5, instance:testscript.LoginTest@c267ef4]" started-at="2026-03-12T20:41:30 IST" name="verifyiftheuserisabletologinwithnousernameandpassword" description="Verify login functionaility" finished-at="2026-03-12T20:41:31 IST" duration-ms="596" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyiftheuserisabletologinwithnousernameandpassword -->
-        <test-method is-config="true" signature="browserQuitAndClose(org.testng.ITestResult)[pri:0, instance:testscript.LoginTest@5e82df6a]" started-at="2026-03-11T20:34:51 IST" name="browserQuitAndClose" finished-at="2026-03-11T20:34:51 IST" duration-ms="225" status="PASS">
+        <test-method is-config="true" signature="browserQuitAndClose(org.testng.ITestResult)[pri:0, instance:testscript.LoginTest@c267ef4]" started-at="2026-03-12T20:41:31 IST" name="browserQuitAndClose" finished-at="2026-03-12T20:41:31 IST" duration-ms="205" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyiftheuserisabletologinwithnousernameandpassword status=SUCCESS method=LoginTest.verifyiftheuserisabletologinwithnousernameandpassword()[pri:5, instance:testscript.LoginTest@5e82df6a] output={null}]]]>
+                <![CDATA[[TestResult name=verifyiftheuserisabletologinwithnousernameandpassword status=SUCCESS method=LoginTest.verifyiftheuserisabletologinwithnousernameandpassword()[pri:5, instance:testscript.LoginTest@c267ef4] output={null}]]]>
               </value>
             </param>
           </params>
